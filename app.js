@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 10000;
 
 // Configuração de CORS
 app.use(cors({
-  origin: ['https://sispadreact.onrender.com', 'http://localhost:3000'], // Adicione o domínio do frontend e localhost
+  origin: ['https://XXXX.onrender.com', 'http://localhost:3000'], // Adicione o domínio do frontend e localhost
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
 }));
@@ -23,3 +23,4 @@ app.get('/', (req, res) => {
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`PDV rodando em http://localhost:${PORT}`);
 });
+
