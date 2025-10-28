@@ -42,14 +42,16 @@ pdv-backend/
 
 └── .env                    # Variáveis de ambiente (não versionado)
 
-Deploy no Render
+# Deploy no Render
 
 Crie um Web Service
 Conecte ao repositório
 Configure:
 
 Build Command: npm install
+
 Start Command: node app.js
+
 Environment: Node
 
 Adicione DATABASE_URL no painel
